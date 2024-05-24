@@ -878,7 +878,6 @@ apt -y install fail2ban > /dev/null 2>&1
 # Instal DDOS Flate
 if [ -d '/usr/local/ddos' ]; then
 	echo; echo; echo "Please un-install the previous version first"
-	exit 0
 else
 	mkdir /usr/local/ddos
 fi
