@@ -80,6 +80,7 @@ checking_sc() {
     echo -e "      \033[0;36mTelegram${NC} t.me/karlstore0"
     echo -e "      ${GREEN}WhatsApp${NC} wa.me/6285965046549"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
+    exit
   fi
 }
 checking_sc
